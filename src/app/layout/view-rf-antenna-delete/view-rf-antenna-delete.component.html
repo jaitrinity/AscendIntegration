@@ -1,0 +1,24 @@
+<table class="table table-bordered view-table">
+  <thead>
+    <tr>
+      <th>Height</th>
+      <th>Weight</th>
+      <th>Azimuth</th>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Gain</th>
+      <th>Band</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let rfDel of viewDataObj.rfAntennaDeleteList; ">
+      <td>{{rfDel.rfSize}}</td>
+      <td>{{rfDel.rfWeight}}</td>
+      <td>{{rfDel.rfAzimuth}}</td>
+      <td>{{rfDel.rfMake}}</td>
+      <td>{{rfDel.rfModel}}</td>
+      <td>{{rfDel.rfGain}}</td>
+      <td>{{rfDel.rfBand}}</td>
+    </tr>
+  </tbody>
+</table>

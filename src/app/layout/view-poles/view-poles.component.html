@@ -1,0 +1,14 @@
+<table class="table table-bordered view-table">
+  <thead>
+    <tr>
+      <th>Height</th>
+      <th>Weight on tower(RRU, GPS, Antenna. Not including MW & RF antenna)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pole of poleList">
+      <td>{{pole.poleHeight}}</td>
+      <td>{{pole.poleWeight}}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table class="table table-bordered view-table">
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>RRU Power Rating(In Watt)</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let rruDel of rruDeleteList">
+      <td>{{rruDel.rruDeleteMake}}</td>
+      <td>{{rruDel.rruDeleteModel}}</td>
+      <td>{{rruDel.rruDeletePower}}</td>
+      <td>{{rruDel.rruDeleteWeight}}</td>
+    </tr>
+  </tbody>
+</table>
